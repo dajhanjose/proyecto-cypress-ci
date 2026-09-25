@@ -1,0 +1,11 @@
+# Dependencias (se reinstalan con npm ci en el pipeline)
+node_modules/
+
+# Artefactos generados por Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
